@@ -25,6 +25,9 @@ body {
   padding: 10px;
   overflow: none;
 }
+img#man {
+  width: 4rem;
+}
 .app-header {
   background-color: var(--primary-color);
   box-shadow: 3px 3px 10px #888;
@@ -105,6 +108,7 @@ body {
   align-items: center;
   justify-content: space-around;
   list-style: none;
+  padding-left: 0;
 }
 .app-footer ul li {
   display: flex;
@@ -119,14 +123,15 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vh;
+  width: 100%;
+  height: 100vh;
   background-color: var(--primary-color);
   z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: opacity 1s;
+  transition: opacity 3s ease-out;
 }
 #splash img {
   width: 300px;
