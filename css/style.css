@@ -26,7 +26,7 @@ body {
   overflow: none;
 }
 img#man {
-  width: 4rem;
+  width: 2rem;
 }
 .app-header {
   background-color: var(--primary-color);
